@@ -1,13 +1,13 @@
 # zad7
 
 Разработано в качестве практического задания для модуля 7 на курсе "SkillFactory: PHP-3.0 Профессия Веб-разработчик".
-В качестве технологии верстки с Figma выбран Bootstrap 5 (см. скриншот bootstrap_figma.png).
+В качестве технологии верстки с Figma выбран Bootstrap (см. скриншот bootstrap_figma.png).
 
 ## Используемые технологии
 
 * HTML
 * CSS
-* Bootstrap 5 flex
+* Bootstrap flex
 * Google Fonts
 
 ## Как открыть/запустить
