@@ -8,6 +8,7 @@
 
 * HTML
 * CSS
+* Bootstrap 5 flex
 
 ## Как открыть/запустить
 
