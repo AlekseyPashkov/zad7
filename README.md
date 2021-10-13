@@ -9,6 +9,7 @@
 * HTML
 * CSS
 * Bootstrap 5 flex
+* Google Fonts
 
 ## Как открыть/запустить
 
