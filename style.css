@@ -1,0 +1,227 @@
+header {
+	background: #EEEFF1;
+}
+
+header span#text-logo {
+	font-family: 'Revalia', cursive;
+	font-size: 57.6px;
+	line-height: 71.42px;
+}
+
+header nav {
+	line-height: 71.42px;
+	display:flex;
+	justify-content:space-between;	
+}
+
+header nav a {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: #000000;
+	text-decoration: none;
+}
+
+header nav a.active {
+	color: #34547A;
+}
+
+header nav a:hover {
+	color: #34547A;
+}
+
+section h1 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 48px;
+	color: #000000;
+}
+
+section h2 {
+	font-family: Roboto;
+	font-weight: 500;
+	font-size: 32px;
+	line-height: 37px;
+	color: #000000;
+	margin-bottom: 25px;
+}
+
+section img {
+	max-width: 100%;
+}
+
+section#welcome {
+	min-height: 700px;
+	background: #EEEFF1;
+}
+
+section#welcome p {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	color: #727272;
+}
+
+section#welcome a.welcome-button, section#contact input[type="submit"] {
+	background: #34547A;
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	font-size: 16px;
+	line-height: 26px;
+	text-align: center;
+	letter-spacing: 0.1em;
+	color: #FFFFFF;
+	padding: 15px 50px !important;
+	text-decoration: none;
+	border-radius: 0;
+}
+
+section#about {
+	min-height: 400px;
+	background: #FFF;
+}
+
+section#about p, section#work p, section#contact p {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	text-align: center;
+	color: #727272;	
+}
+
+section#features {
+	min-height: 250px;
+	background: #34547A;
+}
+
+section#features h3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	font-size: 21px;
+	line-height: 25px;
+	color: #FFFFFF;
+}
+
+section#features p {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	color: #FFFFFF;
+}
+
+section#skills {
+	min-height: 700px;
+	background: #FFF;
+}
+
+section#skills span.skill-name {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	color: #727272;
+}
+
+section#skills .progress {
+    height: 0.5rem;
+    margin: 20px 0;
+}
+
+section#skills .progress-bar {
+    background-color: #34547A;
+}
+
+section#work {
+    min-height: 1004px;
+    background: #EEEFF1;
+}
+
+section#gallery div[class^="col-"] {
+    padding: 0 !important;
+}
+
+section#logos {
+    min-height: 300px;
+    background: #FFF;
+}
+
+section#contact {
+    min-height: 762px;
+    background: #EEEFF1;
+}
+
+section#contact .form-control {
+    border-radius: 0;
+    border: none;
+}
+
+section#contact .form-control-wrap {
+    padding: 0 10px 20px;
+}
+
+section#contact input[type="submit"] {
+    width: 40%;
+    margin: 0 auto;
+}
+
+footer {
+	min-height: 151px;
+	background: #34547A;
+}
+
+footer h2 {
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 21px;
+	line-height: 25px;	
+	color: #FFF;
+}
+
+footer p {
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 21px;
+	color: #FFF;
+}
+
+footer img {
+	max-height: 50px;
+}
+
+@media screen and (max-width: 900px) {
+
+	header nav {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+	}
+
+	section h1 {
+	    font-size: 40px;
+	}	
+
+	section#welcome a.welcome-button {
+	    margin: 0 auto;
+	}	
+
+	section#features {
+	    padding: 50px 0;
+	}
+
+	section#features div[class^="col-"], footer div[class^="col-"] {
+	    text-align: center;
+	}
+
+	section#work {
+	    min-height: unset;
+	    padding: 50px 0;
+	}	
+
+}
